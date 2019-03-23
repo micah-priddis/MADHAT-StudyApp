@@ -20,9 +20,7 @@ export default class Screen extends React.Component {
         <VBox>
           <BannerHeader theme="alt" key="header" data-flex={0}>Study Buddy</BannerHeader>
           <BasicSegment>
-            <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-            <p>Sed posuere consectetur est at lobortis.</p>
+            <p>Hello Connor and Brianna and Emily and Micah and Blake.</p>
           </BasicSegment>
         </VBox>
       </Container>
