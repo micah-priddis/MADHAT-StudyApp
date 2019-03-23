@@ -21,7 +21,4 @@ venv
 *.sublime-workspace
 *.sublime-project
 
-
-*
-!.gitignore
-!src
+node_modules/
