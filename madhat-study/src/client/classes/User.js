@@ -1,4 +1,4 @@
-class Student{
+class User{
     constructor(name, ListOfClasses,email, listOfGroups ) {
         this.name = name;
         this.email = email;
