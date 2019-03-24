@@ -20,11 +20,31 @@ export default class Screen extends React.Component {
         <VBox>
           <BannerHeader theme="alt" key="header" data-flex={0}>Study Buddy</BannerHeader>
           <BasicSegment>
-            <p>Hello Connor and Brianna and Emily and Micah and Blake.</p>
+            <p>Welcome to Cougs Study, please enter your WSU username and password.</p>
+            <p>username: <p>
+            <p>password: <>
+            <p>login</p>
+            <button>login</button>
           </BasicSegment>
         </VBox>
       </Container>
+
+        <Container>
+          <VBox>
+            <BannerHeader theme="alt" key="header" data-flex={0}>Study Buddy</BannerHeader>
+            <BasicSegment>
+              <p>Class list:</p>
+              <p> <p>
+              <p>password: <>
+              <p>login</p>
+              <button>login</button>
+            </BasicSegment>
+          </VBox>
+        </Container>
+
     );
+
+
 
   }
 
