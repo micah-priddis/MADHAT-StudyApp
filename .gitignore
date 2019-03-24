@@ -22,3 +22,4 @@ venv
 *.sublime-project
 
 node_modules/
+madhat-study/node_modules/*
