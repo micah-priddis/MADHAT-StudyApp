@@ -4,6 +4,12 @@ import {
   VBox,
   BannerHeader,
   BasicSegment,
+  Button,
+  ButtonGroup,
+  Listview,
+  NavMenu,
+  NavMenuItem,
+  ListviewItem as Item
 } from "@ombiel/aek-lib";
 
 
@@ -13,39 +19,27 @@ export default class Screen extends React.Component {
 
   }
 
+
   render() {
 
     return (
       <Container>
         <VBox>
-          <BannerHeader theme="alt" key="header" data-flex={0}>Study Buddy</BannerHeader>
+          <BannerHeader theme='alt' key="header" data-flex={0}>Cougs Study</BannerHeader>
           <BasicSegment>
-            <p>Welcome to Cougs Study, please enter your WSU username and password.</p>
-            <p>username: <p>
-            <p>password: <>
-            <p>login</p>
-            <button>login</button>
+          <NavMenu theme="prime">
+          <NavMenuItem icon="home" active href="#">Home</NavMenuItem>
+          <NavMenuItem icon="calendar" href="#/screen2">Classes</NavMenuItem>
+          <NavMenuItem icon="rocket" href="#" >Study Groups</NavMenuItem>
+          <div class="ui input">
+          <input type="text" placeholder="Search...">
+          </div>
+          </NavMenu>
           </BasicSegment>
         </VBox>
       </Container>
-
-        <Container>
-          <VBox>
-            <BannerHeader theme="alt" key="header" data-flex={0}>Study Buddy</BannerHeader>
-            <BasicSegment>
-              <p>Class list:</p>
-              <p> <p>
-              <p>password: <>
-              <p>login</p>
-              <button>login</button>
-            </BasicSegment>
-          </VBox>
-        </Container>
-
     );
-
-
-
+type;
   }
 
 }
