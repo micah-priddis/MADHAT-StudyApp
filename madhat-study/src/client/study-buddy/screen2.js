@@ -28,8 +28,8 @@ export default class Screen extends React.Component {
           <BannerHeader theme='alt' key="header" data-flex={0}>Cougs Study</BannerHeader>
           <BasicSegment>
           <NavMenu theme="prime">
-          <NavMenuItem icon="home" active href="#">Home</NavMenuItem>
-          <NavMenuItem icon="calendar" href="#/screen2">Classes</NavMenuItem>
+          <NavMenuItem icon="home" href="#/screen">Home</NavMenuItem>
+          <NavMenuItem icon="calendar" active href="#">Classes</NavMenuItem>
           <NavMenuItem icon="rocket" href="#" >Study Groups</NavMenuItem>
           </NavMenu>
           </BasicSegment>

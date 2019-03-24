@@ -1,6 +1,11 @@
 homepage:
   menu:
     replace:
+<<<<<<< HEAD
 
       - desc: Study Buddy
+=======
+
+      - desc: Study Buddy
+>>>>>>> Connor
         screenName: study-buddy
