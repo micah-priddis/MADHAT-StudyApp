@@ -1,6 +1,11 @@
 homepage:
   menu:
     replace:
+<<<<<<< HEAD
 
       - desc: Study Buddy
+=======
+
+      - desc: Study Buddy
+>>>>>>> b63a9dc5e5d89c04a3e43d4736808fac8742e2db
         screenName: study-buddy
