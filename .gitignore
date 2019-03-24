@@ -1,0 +1,22 @@
+# Eclipse
+.metadata
+RemoteSystemsTempFiles
+*.cproject
+*.project
+*.classpath
+
+# Visual Studio Code
+.vscode
+*.code-workspace
+
+#Pycharm? Not entirely sure what else needs to be ignored
+.idea
+
+
+#Virtual Enviroment File
+venv
+
+
+#Sublime Text
+*.sublime-workspace
+*.sublime-project
